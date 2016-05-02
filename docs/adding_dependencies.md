@@ -30,4 +30,4 @@ library
   default-language:    Haskell2010
 ```
 
-Where instead of `[dependency]` goes the name of your dependency, lets say `text`
+Where instead of `[dependency]` goes the name of your dependency, lets say `text`. After that, I was able to play with my recently imported modules. Hope this help anyone that runs with the same issue.
