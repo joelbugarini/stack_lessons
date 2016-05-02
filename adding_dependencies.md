@@ -9,7 +9,7 @@ stack build
 stack exec my-project-exe
 ```
 
-To me, this run smothly. My journey stoped when I tryied to **add a dependency**. I read this line of the [User Guide](http://docs.haskellstack.org/en/stable/GUIDE/) as follows:
+To me, this run smothly. But when I tryied to **add a dependency**. I read this line of the [User Guide](http://docs.haskellstack.org/en/stable/GUIDE/) as follows:
 
 ```
 To tell stack to use [dependency], you need to add it to 
