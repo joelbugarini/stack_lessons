@@ -18,7 +18,7 @@ your .cabal file — specifically in your build-depends section.
 
 After that, used `stack build` and stack take care of incluiding it in my project. Well, when trying to `import` the dependecy the console was pointing out that there was a missing dependecy. Holy moly... name checked twice, added to stack.yaml, removed from .cabal, removed from stack.yaml, trying to install from console (not sure if it's even posible). Googled for a while, nothing worked so I return to de Guide an read it again.
 
-It turns out that the .cabal file has two `build-depends` options, one for source and other for the executable (AKA `/src` and `/app` folders) and it clearly says that you should add it to the library build-depends section this way:
+It turns out that the .cabal file has three `build-depends` options, one for source, other for the executable and other for test (AKA `/src`, `/app` `/test` folders) and it clearly says that you should add it to the library build-depends section this way:
 
 ```
 library
